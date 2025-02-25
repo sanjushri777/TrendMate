@@ -1,0 +1,15 @@
+
+.env  
+
+ 
+__pycache__/  
+
+  
+ffmpeg-7.1-full_build/  
+
+
+*.mp4  
+*.wav  
+
+ 
+node_modules/  
