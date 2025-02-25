@@ -17,20 +17,35 @@ TrendMate is an AI-powered platform designed for entrepreneurs to streamline the
 - **APIs Used:** Hashtag Grok AI, Open-source AI video generation models
 
 ## Setup Instructions
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/sanjushri777/TrendMate.git
-   ```
-2. Install dependencies:
-   ```sh
-   cd TrendMate
-   npm install  # For frontend
-   pip install -r requirements.txt  # For backend
-   ```
-3. Run the frontend and backend services:
-   ```sh
-   npm start  # Start frontend
-   python Backend/Ai_tasks/app.py  # Start backend
+# 1. Clone the Repository:
+git clone https://github.com/sanjushri777/TrendMate.git
+
+# 2. Navigate to the Project Directory:
+cd TrendMate
+
+# 3. Install Backend Dependencies:
+cd Backend/Ai_tasks
+pip install -r requirements.txt
+
+# 4. Set Up API Keys:
+# Replace 'your_grok_api_key' and 'your_pixel_api_key' with your actual API keys.
+
+# On Windows Command Prompt:
+set GROK_API_KEY=your_grok_api_key
+set PIXEL_API_KEY=your_pixel_api_key
+
+# On Windows PowerShell:
+$env:GROK_API_KEY="your_grok_api_key"
+$env:PIXEL_API_KEY="your_pixel_api_key"
+
+# On Unix/Linux or macOS:
+export GROK_API_KEY=your_grok_api_key
+export PIXEL_API_KEY=your_pixel_api_key
+
+# 5. Run the Backend Application:
+# Replace 'your_niche' with your specific niche or content focus.
+python app.py "your_niche"
+
    ```
 
 ## Project Status
