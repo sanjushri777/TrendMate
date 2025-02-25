@@ -36,13 +36,16 @@ pip install -r requirements.txt
  Replace 'your_grok_api_key' and 'your_pixel_api_key' with your actual API keys.
 
 # On Windows Command Prompt:(without quotes)
+```
 set GROK_API_KEY=your_grok_api_key
 set PIXEL_API_KEY=your_pixel_api_key
-
+```
+```
 # On Windows PowerShell:
 $env:GROK_API_KEY="your_grok_api_key"
 $env:PIXEL_API_KEY="your_pixel_api_key"
-
+```
+```
 # On Unix/Linux or macOS:
 export GROK_API_KEY=your_grok_api_key
 export PIXEL_API_KEY=your_pixel_api_key
@@ -51,8 +54,8 @@ export PIXEL_API_KEY=your_pixel_api_key
 # 5. Run the Backend Application:
 ```
  Replace 'your_niche' with your specific niche or content focus.
- ```
-```
+ 
+
 python app.py "your_niche"
 
 ```
