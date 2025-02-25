@@ -15,7 +15,7 @@ TrendMate is an AI-powered platform designed for entrepreneurs to streamline the
 - **Backend:** Flask (Integration in Progress)
 - **AI Models:** LLaMA, Grok AI, and other open-source tools
 - **APIs Used:** Hashtag Grok AI, Open-source AI video generation models
-
+```
 ## Setup Instructions
 # 1. Clone the Repository:
 git clone https://github.com/sanjushri777/TrendMate.git
@@ -46,9 +46,9 @@ export PIXEL_API_KEY=your_pixel_api_key
  Replace 'your_niche' with your specific niche or content focus.
  ```
 python app.py "your_niche"
-```
 
-   ```
+```
+  
 
 ## Project Status
 🚧 Backend integration is in progress. The project is not yet completed, and further enhancements are being made.
