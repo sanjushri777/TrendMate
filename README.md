@@ -60,7 +60,7 @@ python app.py "your_niche"
 
 ```
   
-```
+
 ## Project Status
 🚧 Backend integration is in progress. The project is not yet completed, and further enhancements are being made.
 
