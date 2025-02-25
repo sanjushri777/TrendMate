@@ -18,16 +18,21 @@ TrendMate is an AI-powered platform designed for entrepreneurs to streamline the
 ```
 ## Setup Instructions
 # 1. Clone the Repository:
+```
 git clone https://github.com/sanjushri777/TrendMate.git
-
+```
 # 2. Navigate to the Project Directory:
+```
 cd TrendMate
+```
 
 # 3. Install Backend Dependencies:
+```
 cd Backend/Ai_tasks
 pip install -r requirements.txt
-
+```
 # 4. Set Up API Keys:
+```
  Replace 'your_grok_api_key' and 'your_pixel_api_key' with your actual API keys.
 
 # On Windows Command Prompt:(without quotes)
@@ -41,15 +46,18 @@ $env:PIXEL_API_KEY="your_pixel_api_key"
 # On Unix/Linux or macOS:
 export GROK_API_KEY=your_grok_api_key
 export PIXEL_API_KEY=your_pixel_api_key
+```
 
 # 5. Run the Backend Application:
+```
  Replace 'your_niche' with your specific niche or content focus.
  ```
+```
 python app.py "your_niche"
 
 ```
   
-
+```
 ## Project Status
 🚧 Backend integration is in progress. The project is not yet completed, and further enhancements are being made.
 
