@@ -1,75 +1,68 @@
-# TrendMate
+# Text To Video AI 🔥
 
-## Project Overview
-TrendMate is an AI-powered platform designed for entrepreneurs to streamline their marketing efforts with minimal effort. Users simply input their niche and content script, and the platform generates engaging marketing videos using AI. The system also provides trending hashtags, captions, call-to-actions (CTA), and optimal posting times to maximize reach and engagement.
+Generate video from text using AI
 
-## Features
-- AI-generated video content using modified open-source models
-- Automatic trending hashtag and caption generation
-- AI-driven CTA suggestions
-- Optimized posting time recommendations
-- User-friendly interface for seamless content creation
+If you wish to add Text to Video into your application, here is an api to create video from text :- https://docs.vadoo.tv/docs/guide/create-an-ai-video
 
-## Tech Stack
-- **Frontend:** Vite, React
-- **Backend:** Flask (Integration in Progress)
-- **AI Models:** LLaMA, Grok AI, and other open-source tools
-- **APIs Used:** Hashtag Grok AI, Open-source AI video generation models
-```
-## Setup Instructions
-# 1. Clone the Repository:
-```
-git clone https://github.com/sanjushri777/TrendMate.git
-```
-# 2. Navigate to the Project Directory:
-```
-cd TrendMate
-```
+### Youtube Tutorial -> https://www.youtube.com/watch?v=AXo6VfRUgic
 
-# 3. Install Backend Dependencies:
-```
-cd Backend/Ai_tasks
-pip install -r requirements.txt
-```
-# 4. Set Up API Keys:
-```
- Replace 'your_grok_api_key' and 'your_pixel_api_key' with your actual API keys.
+### Medium tutorial -> https://medium.com/@anilmatcha/text-to-video-ai-how-to-create-videos-for-free-a-complete-guide-a25c91de50b8
 
-# On Windows Command Prompt:(without quotes)
-```
-set GROK_API_KEY=your_grok_api_key
-set PIXEL_API_KEY=your_pixel_api_key
-```
-```
-# On Windows PowerShell:
-$env:GROK_API_KEY="your_grok_api_key"
-$env:PIXEL_API_KEY="your_pixel_api_key"
-```
-```
-# On Unix/Linux or macOS:
-export GROK_API_KEY=your_grok_api_key
-export PIXEL_API_KEY=your_pixel_api_key
-```
+### Demo Video
 
-# 5. Run the Backend Application:
-```
- Replace 'your_niche' with your specific niche or content focus.
- 
+https://github.com/user-attachments/assets/1e440ace-8560-4e12-850e-c532740711e7
 
-python app.py "your_niche"
+### 🌟 Show Support
+
+If you enjoy using Text to Video AI, we'd appreciate your support with a star ⭐ on our repository. Your encouragement is invaluable and inspires us to continually improve and expand Text to Video AI. Thank you, and happy content creation! 🎉
+
+[![GitHub star chart](https://img.shields.io/github/stars/SamurAIGPT/Text-To-Video-AI?style=social)](https://github.com/SamurAIGPT/Text-To-Video-AI/stargazers)
+
+### Steps to run
+
+Run the following steps
 
 ```
-  
+export OPENAI_KEY="api-key"
+export PEXELS_KEY="pexels-key"
 
-## Project Status
-🚧 Backend integration is in progress. The project is not yet completed, and further enhancements are being made.
+pip install -r requirements.text
 
-## Team Members
-- **DURGADEVI P**-FRONTEND
-- **ASWINI M**-FRONTEND
-- **SUBHASHINI B**-BACKEND
-- **SANJUSHRI A**-BACKEND
+python app.py "Topic name"
+```
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Output will be generated in rendered_video.mp4
 
+### Quick Start
+
+Without going through the installation hastle here is a simple way to generate videos from text
+
+For a simple way to run the code, checkout the [colab link](/Text_to_Video_example.ipynb)
+
+To generate a video, just click on all the cells one by one. Setup your api keys for openai and pexels
+
+## 💁 Contribution
+
+As an open-source project we are extremely open to contributions. To get started raise an issue in Github or create a pull request
+
+### Other useful Video AI Projects
+
+[AI Influencer generator](https://github.com/SamurAIGPT/AI-Influencer-Generator)
+
+[AI Youtube Shorts generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator/)
+
+[Faceless Video Generator](https://github.com/SamurAIGPT/Faceless-Video-Generator)
+
+[AI B-roll generator](https://github.com/Anil-matcha/AI-B-roll)
+
+[AI video generator](https://www.vadoo.tv/ai-video-generator)
+
+[Text to Video AI](https://www.vadoo.tv/text-to-video-ai)
+
+[Autoshorts AI](https://www.vadoo.tv/autoshorts-ai)
+
+[Pixverse alternative](https://www.vadoo.tv/pixverse-ai)
+
+[Hailuo AI alternative](https://www.vadoo.tv/hailuo-ai)
+
+[Minimax AI alternative](https://www.vadoo.tv/minimax-ai)
